@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Maven_testNG_POM_Test_hybrid(failed)" verbose="0">
+    <classes>
+      <class name="testCases.Test_loginPage">
+        <methods>
+          <include name="InitEnviron"/>
+          <include name="TC003_DDTlogin" invocation-numbers="1 2 3"/>
+          <include name="teardownEnviron"/>
+        </methods>
+      </class> <!-- testCases.Test_loginPage -->
+    </classes>
+  </test> <!-- Maven_testNG_POM_Test_hybrid(failed) -->
+</suite> <!-- Failed suite [Suite] -->

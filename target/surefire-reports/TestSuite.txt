@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 43.979 s <<< FAILURE! - in TestSuite
+testCases.Test_loginPage.TC003_DDTlogin[adminqq, admin123](2)  Time elapsed: 10.661 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at testCases.Test_loginPage.validate_Login(Test_loginPage.java:70)
+	at testCases.Test_loginPage.TC003_DDTlogin(Test_loginPage.java:82)
+
+testCases.Test_loginPage.TC003_DDTlogin[admin, epordmld](3)  Time elapsed: 11.028 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at testCases.Test_loginPage.validate_Login(Test_loginPage.java:70)
+	at testCases.Test_loginPage.TC003_DDTlogin(Test_loginPage.java:82)
+
+testCases.Test_loginPage.TC003_DDTlogin[dlfjds, 34-0943](4)  Time elapsed: 10.55 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at testCases.Test_loginPage.validate_Login(Test_loginPage.java:70)
+	at testCases.Test_loginPage.TC003_DDTlogin(Test_loginPage.java:82)
+
